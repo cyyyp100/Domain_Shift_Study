@@ -1,0 +1,4 @@
+run_id,model,accuracy,roc_auc,error_eps,pad,n_samples,embedding_dim
+20260127_112002,LogReg,1.0,1.0,0.0,2.0,54922,2048
+20260127_112002,MLP,1.0,0.9999999999999999,0.0,2.0
+20260127_112002,DomainDiscriminator,1.0,1.0,0.0,2.0

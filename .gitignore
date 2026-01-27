@@ -1,0 +1,13 @@
+# Données / embeddings
+embeddings/
+Résultats/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Environnements
+.env
+.venv
+conda-env/
