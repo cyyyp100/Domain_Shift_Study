@@ -1,0 +1,19 @@
+{
+  "run_id": "20260127_120130",
+  "dataset_a": "DEEPFRUITS",
+  "dataset_b": "OKTOBERFEST",
+  "model": "MLP",
+  "seed": 42,
+  "test_size": 0.2,
+  "val_size": 0.2,
+  "epochs_max": 100,
+  "best_val_auc": 1.0,
+  "balance_strategy": "downsample",
+  "n_a": 365,
+  "n_b": 365,
+  "embedding_dim": 2048,
+  "accuracy": 0.9794520547945206,
+  "roc_auc": 0.9973728654531807,
+  "error_eps": 0.020547945205479423,
+  "pad": 1.9178082191780823
+}

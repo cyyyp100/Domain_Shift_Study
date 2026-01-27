@@ -11,3 +11,7 @@ __pycache__/
 .env
 .venv
 conda-env/
+
+# Fichiers système
+.DS_Store
+.json

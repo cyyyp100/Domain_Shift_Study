@@ -1,0 +1,19 @@
+{
+  "run_id": "20260127_120130",
+  "dataset_a": "CADOT",
+  "dataset_b": "DOTA",
+  "model": "DomainDiscriminator",
+  "seed": 42,
+  "test_size": 0.2,
+  "val_size": 0.2,
+  "epochs_max": 100,
+  "best_val_auc": 0.9985026474388177,
+  "balance_strategy": "downsample",
+  "n_a": 3234,
+  "n_b": 3234,
+  "embedding_dim": 2048,
+  "accuracy": 0.9837712519319938,
+  "roc_auc": 0.9973173056479913,
+  "error_eps": 0.016228748068006227,
+  "pad": 1.935085007727975
+}

@@ -1,0 +1,19 @@
+{
+  "run_id": "20260127_120130",
+  "dataset_a": "COCO",
+  "dataset_b": "XVIEW",
+  "model": "DomainDiscriminator",
+  "seed": 42,
+  "test_size": 0.2,
+  "val_size": 0.2,
+  "epochs_max": 100,
+  "best_val_auc": 0.999997312377282,
+  "balance_strategy": "downsample",
+  "n_a": 20881,
+  "n_b": 20881,
+  "embedding_dim": 2048,
+  "accuracy": 0.9991619777325512,
+  "roc_auc": 0.9999978214946472,
+  "error_eps": 0.0008380222674487792,
+  "pad": 1.9966479109302049
+}

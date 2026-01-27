@@ -1,0 +1,19 @@
+{
+  "run_id": "20260127_120130",
+  "dataset_a": "DIOR",
+  "dataset_b": "FASHIONPEDIA",
+  "model": "MLP",
+  "seed": 42,
+  "test_size": 0.2,
+  "val_size": 0.2,
+  "epochs_max": 100,
+  "best_val_auc": 0.9999927258478752,
+  "balance_strategy": "downsample",
+  "n_a": 8973,
+  "n_b": 8973,
+  "embedding_dim": 2048,
+  "accuracy": 0.9994428969359331,
+  "roc_auc": 0.999999068908528,
+  "error_eps": 0.0005571030640668662,
+  "pad": 1.9977715877437325
+}

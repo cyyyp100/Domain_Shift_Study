@@ -1,0 +1,19 @@
+{
+  "run_id": "20260127_120130",
+  "dataset_a": "ARTAXOR",
+  "dataset_b": "COCO",
+  "model": "MLP",
+  "seed": 42,
+  "test_size": 0.2,
+  "val_size": 0.2,
+  "epochs_max": 100,
+  "best_val_auc": 0.9999065329830128,
+  "balance_strategy": "downsample",
+  "n_a": 12300,
+  "n_b": 12300,
+  "embedding_dim": 2048,
+  "accuracy": 0.9963414634146341,
+  "roc_auc": 0.9999286139202856,
+  "error_eps": 0.003658536585365857,
+  "pad": 1.9853658536585366
+}
