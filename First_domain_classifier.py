@@ -26,7 +26,7 @@ torch.manual_seed(SEED)
 
 # NOTE: on veut pouvoir entraîner sur une petite fraction (ex: 0.1 ou 0.2)
 # pour éviter que le classifieur de domaines devienne trop performant.
-TRAIN_FRACTION = 0.05   # ex: 0.1 = 10% train, 0.2 = 20% train
+TRAIN_FRACTION = 0.01   # ex: 0.1 = 10% train, 0.2 = 20% train
 
 # Validation prise sur le TRAIN (pour early-stopping du MLP / Discriminator)
 VAL_FRACTION_ON_TRAIN = 0.2

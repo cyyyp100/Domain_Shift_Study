@@ -1,0 +1,28 @@
+{
+  "run_id": "20260128_123716",
+  "dataset_a": "DIOR",
+  "dataset_b": "UODD",
+  "model": "LogReg",
+  "seed": 42,
+  "train_fraction": 0.01,
+  "test_fraction": 0.99,
+  "val_fraction_on_train": 0.2,
+  "balance_strategy": "downsample",
+  "n_a_raw": 8973,
+  "n_b_raw": 2560,
+  "n_a": 2560,
+  "n_b": 2560,
+  "embedding_dim": 2048,
+  "train_counts": {
+    "0": 25,
+    "1": 26
+  },
+  "test_counts": {
+    "0": 2535,
+    "1": 2534
+  },
+  "accuracy": 0.9919116196488459,
+  "roc_auc": 0.999066580112054,
+  "error_eps": 0.008088380351154112,
+  "pad": 1.9676464785953836
+}

@@ -1,0 +1,28 @@
+{
+  "run_id": "20260128_123716",
+  "dataset_a": "ARTAXOR",
+  "dataset_b": "XVIEW",
+  "model": "LogReg",
+  "seed": 42,
+  "train_fraction": 0.01,
+  "test_fraction": 0.99,
+  "val_fraction_on_train": 0.2,
+  "balance_strategy": "downsample",
+  "n_a_raw": 12300,
+  "n_b_raw": 20881,
+  "n_a": 12300,
+  "n_b": 12300,
+  "embedding_dim": 2048,
+  "train_counts": {
+    "0": 123,
+    "1": 123
+  },
+  "test_counts": {
+    "0": 12177,
+    "1": 12177
+  },
+  "accuracy": 0.9972489118830582,
+  "roc_auc": 0.9999523399515788,
+  "error_eps": 0.0027510881169418022,
+  "pad": 1.9889956475322328
+}

@@ -1,0 +1,28 @@
+{
+  "run_id": "20260128_123716",
+  "dataset_a": "DEEPFRUITS",
+  "dataset_b": "UODD",
+  "model": "LogReg",
+  "seed": 42,
+  "train_fraction": 0.01,
+  "test_fraction": 0.99,
+  "val_fraction_on_train": 0.2,
+  "balance_strategy": "downsample",
+  "n_a_raw": 365,
+  "n_b_raw": 2560,
+  "n_a": 365,
+  "n_b": 365,
+  "embedding_dim": 2048,
+  "train_counts": {
+    "0": 3,
+    "1": 4
+  },
+  "test_counts": {
+    "0": 362,
+    "1": 361
+  },
+  "accuracy": 0.8022130013831259,
+  "roc_auc": 0.7733467501262606,
+  "error_eps": 0.1977869986168741,
+  "pad": 1.2088520055325036
+}

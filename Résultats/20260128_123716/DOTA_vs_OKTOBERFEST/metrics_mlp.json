@@ -1,0 +1,19 @@
+{
+  "run_id": "20260128_123716",
+  "dataset_a": "DOTA",
+  "dataset_b": "OKTOBERFEST",
+  "model": "MLP",
+  "seed": 42,
+  "test_size": 0.99,
+  "val_fraction_on_train": 0.2,
+  "epochs_max": 100,
+  "best_val_auc": 1.0,
+  "balance_strategy": "downsample",
+  "n_a": 835,
+  "n_b": 835,
+  "embedding_dim": 2048,
+  "accuracy": 0.9274486094316807,
+  "roc_auc": 0.986062880796106,
+  "error_eps": 0.07255139056831927,
+  "pad": 1.709794437726723
+}

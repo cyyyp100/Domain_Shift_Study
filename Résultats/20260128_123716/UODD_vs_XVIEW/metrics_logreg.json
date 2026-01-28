@@ -1,0 +1,28 @@
+{
+  "run_id": "20260128_123716",
+  "dataset_a": "UODD",
+  "dataset_b": "XVIEW",
+  "model": "LogReg",
+  "seed": 42,
+  "train_fraction": 0.01,
+  "test_fraction": 0.99,
+  "val_fraction_on_train": 0.2,
+  "balance_strategy": "downsample",
+  "n_a_raw": 2560,
+  "n_b_raw": 20881,
+  "n_a": 2560,
+  "n_b": 2560,
+  "embedding_dim": 2048,
+  "train_counts": {
+    "0": 25,
+    "1": 26
+  },
+  "test_counts": {
+    "0": 2535,
+    "1": 2534
+  },
+  "accuracy": 0.9940816729137897,
+  "roc_auc": 0.999423851400052,
+  "error_eps": 0.005918327086210318,
+  "pad": 1.9763266916551587
+}

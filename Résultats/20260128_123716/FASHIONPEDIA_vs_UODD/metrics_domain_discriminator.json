@@ -1,0 +1,19 @@
+{
+  "run_id": "20260128_123716",
+  "dataset_a": "FASHIONPEDIA",
+  "dataset_b": "UODD",
+  "model": "DomainDiscriminator",
+  "seed": 42,
+  "test_size": 0.99,
+  "val_fraction_on_train": 0.2,
+  "epochs_max": 100,
+  "best_val_auc": 1.0,
+  "balance_strategy": "downsample",
+  "n_a": 2560,
+  "n_b": 2560,
+  "embedding_dim": 2048,
+  "accuracy": 0.954626159005721,
+  "roc_auc": 0.9809069242133416,
+  "error_eps": 0.04537384099427899,
+  "pad": 1.818504636022884
+}

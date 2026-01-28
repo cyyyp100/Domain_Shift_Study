@@ -1,0 +1,19 @@
+{
+  "run_id": "20260128_123716",
+  "dataset_a": "DIOR",
+  "dataset_b": "XVIEW",
+  "model": "DomainDiscriminator",
+  "seed": 42,
+  "test_size": 0.99,
+  "val_fraction_on_train": 0.2,
+  "epochs_max": 100,
+  "best_val_auc": 0.9907407407407407,
+  "balance_strategy": "downsample",
+  "n_a": 8973,
+  "n_b": 8973,
+  "embedding_dim": 2048,
+  "accuracy": 0.9107896662351551,
+  "roc_auc": 0.9696308400217891,
+  "error_eps": 0.08921033376484488,
+  "pad": 1.6431586649406205
+}

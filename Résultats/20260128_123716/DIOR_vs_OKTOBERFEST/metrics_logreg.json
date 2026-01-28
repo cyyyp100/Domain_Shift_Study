@@ -1,0 +1,28 @@
+{
+  "run_id": "20260128_123716",
+  "dataset_a": "DIOR",
+  "dataset_b": "OKTOBERFEST",
+  "model": "LogReg",
+  "seed": 42,
+  "train_fraction": 0.01,
+  "test_fraction": 0.99,
+  "val_fraction_on_train": 0.2,
+  "balance_strategy": "downsample",
+  "n_a_raw": 8973,
+  "n_b_raw": 835,
+  "n_a": 835,
+  "n_b": 835,
+  "embedding_dim": 2048,
+  "train_counts": {
+    "0": 8,
+    "1": 8
+  },
+  "test_counts": {
+    "0": 827,
+    "1": 827
+  },
+  "accuracy": 0.9921402660217654,
+  "roc_auc": 0.9992104443589904,
+  "error_eps": 0.007859733978234584,
+  "pad": 1.9685610640870617
+}

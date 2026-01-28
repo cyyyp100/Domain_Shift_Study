@@ -1,0 +1,19 @@
+{
+  "run_id": "20260128_123716",
+  "dataset_a": "CADOT",
+  "dataset_b": "DEEPFRUITS",
+  "model": "MLP",
+  "seed": 42,
+  "test_size": 0.99,
+  "val_fraction_on_train": 0.2,
+  "epochs_max": 100,
+  "best_val_auc": 1.0,
+  "balance_strategy": "downsample",
+  "n_a": 365,
+  "n_b": 365,
+  "embedding_dim": 2048,
+  "accuracy": 0.5131396957123098,
+  "roc_auc": 0.7687975390642934,
+  "error_eps": 0.4868603042876902,
+  "pad": 0.052558782849239094
+}

@@ -1,0 +1,19 @@
+{
+  "run_id": "20260128_123716",
+  "dataset_a": "DOTA",
+  "dataset_b": "FASHIONPEDIA",
+  "model": "DomainDiscriminator",
+  "seed": 42,
+  "test_size": 0.99,
+  "val_fraction_on_train": 0.2,
+  "epochs_max": 100,
+  "best_val_auc": 1.0,
+  "balance_strategy": "downsample",
+  "n_a": 36498,
+  "n_b": 36498,
+  "embedding_dim": 2048,
+  "accuracy": 0.99793820139206,
+  "roc_auc": 0.9999085062258941,
+  "error_eps": 0.0020617986079399797,
+  "pad": 1.99175280556824
+}

@@ -1,0 +1,28 @@
+{
+  "run_id": "20260128_123716",
+  "dataset_a": "FASHIONPEDIA",
+  "dataset_b": "XVIEW",
+  "model": "LogReg",
+  "seed": 42,
+  "train_fraction": 0.01,
+  "test_fraction": 0.99,
+  "val_fraction_on_train": 0.2,
+  "balance_strategy": "downsample",
+  "n_a_raw": 36498,
+  "n_b_raw": 20881,
+  "n_a": 20881,
+  "n_b": 20881,
+  "embedding_dim": 2048,
+  "train_counts": {
+    "0": 208,
+    "1": 209
+  },
+  "test_counts": {
+    "0": 20673,
+    "1": 20672
+  },
+  "accuracy": 0.9994678921272222,
+  "roc_auc": 0.9999950228412975,
+  "error_eps": 0.0005321078727777984,
+  "pad": 1.9978715685088888
+}

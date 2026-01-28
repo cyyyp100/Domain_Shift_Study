@@ -1,0 +1,28 @@
+{
+  "run_id": "20260128_123716",
+  "dataset_a": "ARTAXOR",
+  "dataset_b": "CADOT",
+  "model": "LogReg",
+  "seed": 42,
+  "train_fraction": 0.01,
+  "test_fraction": 0.99,
+  "val_fraction_on_train": 0.2,
+  "balance_strategy": "downsample",
+  "n_a_raw": 12300,
+  "n_b_raw": 3234,
+  "n_a": 3234,
+  "n_b": 3234,
+  "embedding_dim": 2048,
+  "train_counts": {
+    "0": 32,
+    "1": 32
+  },
+  "test_counts": {
+    "0": 3202,
+    "1": 3202
+  },
+  "accuracy": 0.9996876951905059,
+  "roc_auc": 0.9999995123285298,
+  "error_eps": 0.00031230480949406836,
+  "pad": 1.9987507807620237
+}
