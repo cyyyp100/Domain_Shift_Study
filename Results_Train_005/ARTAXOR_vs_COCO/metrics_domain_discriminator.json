@@ -1,0 +1,19 @@
+{
+  "run_id": "20260128_122326",
+  "dataset_a": "ARTAXOR",
+  "dataset_b": "COCO",
+  "model": "DomainDiscriminator",
+  "seed": 42,
+  "test_size": 0.95,
+  "val_fraction_on_train": 0.2,
+  "epochs_max": 100,
+  "best_val_auc": 0.9999339017780421,
+  "balance_strategy": "downsample",
+  "n_a": 12300,
+  "n_b": 12300,
+  "embedding_dim": 2048,
+  "accuracy": 0.9917415489944373,
+  "roc_auc": 0.9991685026775273,
+  "error_eps": 0.008258451005562661,
+  "pad": 1.9669661959777494
+}

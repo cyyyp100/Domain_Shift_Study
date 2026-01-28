@@ -1,0 +1,19 @@
+{
+  "run_id": "20260128_122326",
+  "dataset_a": "DOTA",
+  "dataset_b": "FASHIONPEDIA",
+  "model": "MLP",
+  "seed": 42,
+  "test_size": 0.95,
+  "val_fraction_on_train": 0.2,
+  "epochs_max": 100,
+  "best_val_auc": 0.9999774817038845,
+  "balance_strategy": "downsample",
+  "n_a": 36498,
+  "n_b": 36498,
+  "embedding_dim": 2048,
+  "accuracy": 0.9987310193663749,
+  "roc_auc": 0.9999811046207282,
+  "error_eps": 0.0012689806336251275,
+  "pad": 1.9949240774654995
+}
