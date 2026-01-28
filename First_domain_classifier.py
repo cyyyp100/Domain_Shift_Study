@@ -224,7 +224,7 @@ def make_torch_loaders(X_train_s, y_train, X_test_s, y_test):
     X_te_t = torch.tensor(X_test_s, dtype=torch.float32)
     y_te_t = torch.tensor(y_test, dtype=torch.float32)
 
-    train_bs = max(1, min(256, len(X_tr_t)))
+    train_bs = max(1, min(1, 10))
     val_bs = max(1, min(512, len(X_val_t)))
     test_bs = max(1, min(512, len(X_te_t)))
 
@@ -263,7 +263,7 @@ def run_mlp(X_train_s, y_train, X_test_s, y_test, pair_dir: Path, run_root: Path
 
     best_val_auc = -1.0
     best_state = {k: v.detach().cpu().clone() for k, v in model.state_dict().items()}
-    patience = 10
+    patience = 2
     pat = 0
     EPOCHS = 100
 
@@ -365,7 +365,7 @@ def run_domain_discriminator(X_train_s, y_train, X_test_s, y_test, pair_dir: Pat
 
     best_val_auc = -1.0
     best_state = {k: v.detach().cpu().clone() for k, v in discriminator.state_dict().items()}
-    patience = 10
+    patience = 2 #modifier patience pour stopper l'early stopping plus rapidement et eviter le overfitting ----------------------------------
     pat = 0
     EPOCHS = 100
 
