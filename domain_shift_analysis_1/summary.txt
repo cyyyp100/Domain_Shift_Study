@@ -1,0 +1,38 @@
+======================================================================
+               RAPPORT D'ANALYSE DES DOMAIN SHIFTS
+======================================================================
+
+📊 RÉSUMÉ GLOBAL
+----------------------------------------------------------------------
+Nombre de paires analysées: 1
+DSI moyen: 3.5 ± nan
+DSI min: 3.5
+DSI max: 3.5
+
+📋 DÉTAILS PAR PAIRE
+----------------------------------------------------------------------
+
+▪ DIOR_blurry vs DOTA_blurry
+  DSI-10:        3.5 ± 1.3
+  Interprétation: Négligeable
+  Acc@10:        51.7%
+  Acc@500:       54.8%
+  AUC learning:  4.4
+  Convergence:   37.3
+  Stabilité:     97.6
+
+======================================================================
+📖 INTERPRÉTATION DES MÉTRIQUES
+======================================================================
+
+DSI-10 (Domain Shift Index @ 10-shot):
+  0-10:  Shift négligeable (même domaine)
+  10-30: Shift faible (domaines très similaires)
+  30-50: Shift modéré (domaines liés)
+  50-70: Shift fort (domaines différents)
+  70-100: Shift très fort (domaines orthogonaux)
+
+AUC Learning: Efficacité globale de l'apprentissage (0-100)
+Convergence: Taux de convergence après 10-shot (0-100)
+Stabilité: Inverse de la variance (0-100, plus=mieux)
+
